@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Subscriber Count In JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="url">
+            <input type="text" placeholder="Enter Your Channel i'd" id="channelURL">
+            <input type="submit" value="Find" id="search">
+        </div>
+        <div id="response">
+            <!-- channel logo -->
+            <div id="logoFrame">
+                <div id="innerCircle">
+                    CODE NOW
+                </div>
+            </div>
+            <!-- channel detail -->
+            <div id="channelDetail">
+                <div class="cards">
+                    <div class="name" id="subscriber">Subscribers</div>
+                    <h2 class="values" id="subscriberValue">00</h2>
+                </div>
+                <div class="cards">
+                    <div class="name" id="views">Views</div>
+                    <h2 class="values" id="viewsValue">00</h2>
+                </div>
+                <div class="cards">
+                    <div class="name" id="videos">Videos</div>
+                    <h2 class="values" id="totalVideos">00</h2>
+                </div>
+            </div>
+        </div>
+        <!-- errors section -->
+        <div id="errors">
+            <h3 id="errorValue">ERROR SECTION</h3>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
